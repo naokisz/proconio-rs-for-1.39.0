@@ -1,4 +1,8 @@
-# proconio / proconio-derive
+# proconio for rust 1.39.0 / proconio-derive for 1.39.0
+
+rust 1.39.0でコンパイルしてもエラーにならないように改変したもの。
+現時点ではproconioのみ動作。
+以下オリジナルのREADME。
 
 `proconio` is an easy IO library for competitive programming, aiming to be used
 with AtCoder.
