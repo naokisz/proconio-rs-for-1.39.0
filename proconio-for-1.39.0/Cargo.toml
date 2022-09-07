@@ -1,9 +1,9 @@
 [package]
-name = "proconio"
+name = "proconio_for_1_39_0"
 version = "0.4.3"
 authors = ["statiolake <statiolake@gmail.com>"]
-edition = "2018"
-repository = "https://github.com/statiolake/proconio-rs"
+edition = "2015"
+repository = "https://github.com/naokisz/proconio-rs-for-1.39.0"
 keywords = ["io", "procon", "procon"]
 categories = ["command-line-interface"]
 license = "MIT OR Apache-2.0"
@@ -39,11 +39,11 @@ required-features = ["derive"]
 harness = false
 
 [dependencies]
-lazy_static = "1.4.0"
+lazy_static_for_1_39_0 = { git = "https://github.com/naokisz/lazy-static.rs-for-1.39.0.git", branch = "main" }
 
-[dependencies.proconio-derive]
+[dependencies.proconio_derive_for_1_39_0]
 version = "0.2.0"
-path = "../proconio-derive"
+path = "../proconio-derive-for-1.39.0"
 optional = true
 
 [dev-dependencies]
@@ -52,4 +52,4 @@ trybuild = "1.0.24"
 assert_cli = "0.6.3"
 
 [features]
-derive = ["proconio-derive"]
+derive = ["proconio_derive_for_1_39_0"]

@@ -1,9 +1,9 @@
 [package]
-name = "proconio-derive"
+name = "proconio_derive_for_1_39_0"
 version = "0.2.1"
 authors = ["statiolake <statiolake@gmail.com>"]
-edition = "2018"
-repository = "https://github.com/statiolake/proconio-rs"
+edition = "2015"
+repository = "https://github.com/naokisz/proconio-rs-for-1-39-0"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 description = "Procedural macros for proconio"
@@ -19,6 +19,6 @@ proc-macro2 = "1.0.9"
 version = "1.0.17"
 features = ["full", "extra-traits", "visit"]
 
-[dev-dependencies.proconio]
+[dev-dependencies.proconio_for_1_39_0]
 version = "0.4.0"
-path = "../proconio"
+path = "../proconio-for-1.39.0"

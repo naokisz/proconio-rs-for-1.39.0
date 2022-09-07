@@ -506,6 +506,9 @@
 //! If you don't like this behavior, you can remove #[fastout] from your `main()`.
 //!
 
+extern crate lazy_static_for_1_39_0;
+extern crate core;
+
 #[cfg(feature = "derive")]
 pub use proconio_derive::*;
 
@@ -513,7 +516,7 @@ pub mod marker;
 pub mod source;
 
 use crate::source::auto::AutoSource;
-use lazy_static::lazy_static;
+use self::lazy_static_for_1_39_0::lazy_static;
 use std::io;
 use std::io::{BufReader, Stdin};
 use std::sync::Mutex;

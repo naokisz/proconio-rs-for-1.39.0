@@ -1,2 +1,2 @@
 [workspace]
-members = ["proconio", "proconio-derive"]
+members = ["proconio-for-1.39.0", "proconio-derive-for-1.39.0"]
